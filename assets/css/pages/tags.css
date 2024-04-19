@@ -1,0 +1,24 @@
+.tags-page__head {
+  margin-bottom: 24px;
+}
+
+.tags-page__head .base-head__title {
+  font-size: 28px;
+  color: #F7F7F7;
+}
+
+.tags-page__select {
+  margin-bottom: 24px;
+}
+
+@media (max-width: 767.98px) {
+  .tags-page__head .base-head__title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480.98px) {
+  .tags-page__head .base-head__title {
+    font-size: 14px;
+  }
+}
