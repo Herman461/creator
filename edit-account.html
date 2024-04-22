@@ -10,8 +10,8 @@
     <link rel="preload" as="font" href="assets/fonts/Unbounded-Bold.woff" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="assets/fonts/Uchen-Regular.woff" type="font/woff2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css?_v=20240422072403">
-    <link rel="stylesheet" href="assets/css/pages/categories.css?_v=20240422072403">
-    <title>Videos</title>
+    <link rel="stylesheet" href="assets/css/pages/edit.css?_v=20240422072403">
+    <title>Edit Account</title>
 </head>
 
 <body>
@@ -854,462 +854,164 @@
 
         <main class="page">
             <div class="page__container container">
-                <div class="page__body">
-                    <div class="page__top-banner">
-                        <img src="assets/images/banner-top.png" alt="">
-                    </div>
-                    <div class="categories">
-                        <ul class="categories__list">
-                            <li class="categories__item">
-                                <a href="" class="categories__link stroke active">
+                <form action="#" class="edit">
+                    <div class="edit__avatar avatar-edit">
+                        <div class="avatar-edit__body">
+                            <div class="avatar-edit__image">
+                                <img src="assets/images/user.jpg" alt="">
+                                <button type="button" class="avatar-edit__button stroke">
                                     <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#play-default"></use>
+                                        <use xlink:href="assets/images/icons/icons.svg#arrows-clock"></use>
                                     </svg>
-                                    <span>Videos</span>
-
-                                </a>
-                            </li>
-                            <li class="categories__item">
-                                <a href="" class="categories__link">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#picture"></use>
-                                    </svg>
-                                    <span>Images</span>
-                                </a>
-                            </li>
-                            <li class="categories__item">
-                                <a href="" class="categories__link">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
-                                    </svg>
-                                    <span>Creators</span>
-                                </a>
-                            </li>
-                            <li class="categories__item">
-                                <a href="" class="categories__link">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#group"></use>
-                                    </svg>
-                                    <span>Niches</span>
-
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="categories__select feed-select">
-                            <div class="feed-select__label">Sort by</div>
-                            <div class="feed-select__item base-select">
-                                <select>
-                                    <option value="latest">Latest</option>
-                                    <option selected value="trending">Trending</option>
-                                    <option value="top">Top</option>
-                                </select>
+                                </button>
                             </div>
                         </div>
-                        <div class="categories__videos feed">
-                            <div class="categories__video">
-                                <div class="video">
-                                    <video muted playsinline src="assets/videos/03.webm"></video>
-                                    <div class="video__preview">
-                                        <img src="assets/images/video-preview.jpg" alt="">
-                                    </div>
-                                    <div class="video__info info-block">
-                                        <div class="info-block__icon">
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="info-block__value">88K</div>
-                                        <div class="info-block__duration">00:45</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="categories__video">
-                                <div class="video">
-                                    <video muted playsinline src="assets/videos/03.webm"></video>
-                                    <div class="video__preview">
-                                        <img src="assets/images/video-preview.jpg" alt="">
-                                    </div>
-                                    <div class="video__info info-block">
-                                        <div class="info-block__icon">
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="info-block__value">88K</div>
-                                        <div class="info-block__duration">00:45</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="categories__video">
-                                <div class="video">
-                                    <video muted playsinline src="assets/videos/03.webm"></video>
-                                    <div class="video__preview">
-                                        <img src="assets/images/video-preview.jpg" alt="">
-                                    </div>
-                                    <div class="video__info info-block">
-                                        <div class="info-block__icon">
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="info-block__value">88K</div>
-                                        <div class="info-block__duration">00:45</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="categories__video">
-                                <div class="video">
-                                    <video muted playsinline src="assets/videos/03.webm"></video>
-                                    <div class="video__preview">
-                                        <img src="assets/images/video-preview.jpg" alt="">
-                                    </div>
-                                    <div class="video__info info-block">
-                                        <div class="info-block__icon">
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="info-block__value">88K</div>
-                                        <div class="info-block__duration">00:45</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="categories__video">
-                                <div class="video">
-                                    <video muted playsinline src="assets/videos/03.webm"></video>
-                                    <div class="video__preview">
-                                        <img src="assets/images/video-preview.jpg" alt="">
-                                    </div>
-                                    <div class="video__info info-block">
-                                        <div class="info-block__icon">
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="info-block__value">88K</div>
-                                        <div class="info-block__duration">00:45</div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="categories__video">
-                                <div class="video">
-                                    <video muted playsinline src="assets/videos/03.webm"></video>
-                                    <div class="video__preview">
-                                        <img src="assets/images/video-preview.jpg" alt="">
-                                    </div>
-                                    <div class="video__info info-block">
-                                        <div class="info-block__icon">
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                            </svg>
-                                        </div>
-                                        <div class="info-block__value">88K</div>
-                                        <div class="info-block__duration">00:45</div>
-                                    </div>
-                                </div>
-
+                    </div>
+                    <div class="edit__content">
+                        <div class="edit__name">SUPERSTAR</div>
+                        <div class="edit__item">
+                            <div class="edit__label">Email</div>
+                            <div class="edit__input">
+                                <input type="text" class="input">
                             </div>
                         </div>
-                        <div class="base-loader">
-                            <div class="base-loader__icon">
-                                <img src="assets/images/icons/loader.svg" alt="">
+                        <div class="edit__item">
+                            <div class="edit__label">Select preferances</div>
+                            <div class="edit__options options-edit">
+                                <div class="options-edit__column">
+                                    <label class="options-edit__checkbox checkbox checkbox-tick">
+                                        <svg class="stroke">
+                                            <use xlink:href="assets/images/icons/icons.svg#check"></use>
+                                        </svg>
+                                        <input checked class="checkbox__input" type="checkbox">
+                                        <span class="checkbox__text">
+                                            <span>One option</span>
+                                        </span>
+                                    </label>
+                                    <label class="options-edit__checkbox checkbox checkbox-tick">
+                                        <svg class="stroke">
+                                            <use xlink:href="assets/images/icons/icons.svg#check"></use>
+                                        </svg>
+                                        <input checked class="checkbox__input" type="checkbox">
+                                        <span class="checkbox__text">
+                                            <span>One option</span>
+                                        </span>
+                                    </label>
+                                    <label class="options-edit__checkbox checkbox checkbox-tick">
+                                        <svg class="stroke">
+                                            <use xlink:href="assets/images/icons/icons.svg#check"></use>
+                                        </svg>
+                                        <input checked class="checkbox__input" type="checkbox">
+                                        <span class="checkbox__text">
+                                            <span>One option</span>
+                                        </span>
+                                    </label>
+                                </div>
+                                <div class="options-edit__column">
+                                    <label class="options-edit__checkbox checkbox checkbox-tick">
+                                        <svg class="stroke">
+                                            <use xlink:href="assets/images/icons/icons.svg#check"></use>
+                                        </svg>
+                                        <input checked class="checkbox__input" type="checkbox">
+                                        <span class="checkbox__text">
+                                            <span>One option</span>
+                                        </span>
+                                    </label>
+                                    <label class="options-edit__checkbox checkbox checkbox-tick">
+                                        <svg class="stroke">
+                                            <use xlink:href="assets/images/icons/icons.svg#check"></use>
+                                        </svg>
+                                        <input checked class="checkbox__input" type="checkbox">
+                                        <span class="checkbox__text">
+                                            <span>One option</span>
+                                        </span>
+                                    </label>
+                                    <label class="options-edit__checkbox checkbox checkbox-tick">
+                                        <svg class="stroke">
+                                            <use xlink:href="assets/images/icons/icons.svg#check"></use>
+                                        </svg>
+                                        <input checked class="checkbox__input" type="checkbox">
+                                        <span class="checkbox__text">
+                                            <span>One option</span>
+                                        </span>
+                                    </label>
+                                </div>
                             </div>
-                            <span>Loading</span>
                         </div>
-                    </div>
-                </div>
-                <div class="page__side side">
-                    <div class="side__head head-side">
-                        <div class="head-side__icon">
-                            <img src="assets/images/icons/tag.svg" alt="">
+                        <div class="edit__item">
+                            <div class="edit__label">Password</div>
+                            <div class="edit__input">
+                                <input type="password" class="input">
+                            </div>
                         </div>
-                        <div class="head-side__title">TRENDING TAGS</div>
-                        <a href="" class="head-side__more more stroke">
-                            <span>All tags</span>
-                            <svg>
-                                <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
-                            </svg>
-                        </a>
-                    </div>
-                    <ul class="side__tags tags">
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                        <li class="tag">
-                            <a href="" class="tag__link">
-                                <span class="tag__value">
-                                    tag 1
-                                </span>
-                                <span class="tag__count">1K</span>
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div class="side__banner">
-                        <img src="assets/images/banner-square.png" alt="">
-                    </div>
-
-                    <div class="side__head head-side">
-                        <div class="head-side__icon">
-                            <img src="assets/images/icons/user.svg" alt="">
+                        <div class="edit__item">
+                            <div class="edit__label">New password</div>
+                            <div class="edit__input">
+                                <input type="password" class="input">
+                            </div>
                         </div>
-                        <div class="head-side__title">TRENDING CREATORS</div>
+                        <div class="edit__item">
+                            <div class="edit__label">Retry password</div>
+                            <div class="edit__input">
+                                <input type="password" class="input">
+                            </div>
+                        </div>
+                        <div class="edit__requirements">
+                            Password must have:
+                            <br>
+                            8 to 20 characters
+                            <br>
+                            Upper case and lower case letters, numbers
+                        </div>
+
+                        <button type="submit" class="edit__button button">
+                            <span>SAVE CHANGES</span>
+                        </button>
                     </div>
-                    <ul class="side__creators">
-                        <li class="side__creator creator">
-                            <a href="" class="creator__avatar">
-                                <img src="assets/images/creator-avatar.jpg" alt="">
-                            </a>
-                            <div class="creator__info">
-                                <a href="" class="creator__name">USERNAME</a>
-                                <div class="creator__value value">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
-                                    </svg>
-                                    <span>88K</span>
-                                </div>
+                    <div class="edit__side side-edit">
+                        <div class="side-edit__body">
+                            <ul class="side-edit__list">
+                                <li class="side-edit__item stroke">
+                                    <a href="">
+                                        <svg>
+                                            <use xlink:href="assets/images/icons/icons.svg#card"></use>
+                                        </svg>
+                                        <span>EDIT PROFILE</span>
+                                    </a>
+                                </li>
+                                <li class="side-edit__item stroke active">
+                                    <a href="">
+                                        <svg>
+                                            <use xlink:href="assets/images/icons/icons.svg#user-circle"></use>
+                                        </svg>
+                                        <span>EDIT ACCOUNT</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="side-edit__bottom">
+                                <ul class="side-edit__list">
+                                    <li class="side-edit__item stroke">
+                                        <a href="">
+                                            <svg>
+                                                <use xlink:href="assets/images/icons/icons.svg#chats-circle"></use>
+                                            </svg>
+                                            <span>CONTACT SUPPORT</span>
+                                        </a>
+                                    </li>
+                                    <li class="side-edit__item">
+                                        <a href="">
+                                            <svg>
+                                                <use xlink:href="assets/images/icons/icons.svg#info"></use>
+                                            </svg>
+                                            <span>FAQ</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
-                            <button type="button" class="creator__button button">
-                                <svg>
-                                    <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
-                                </svg>
-                                <span>Follow</span>
-                            </button>
-                        </li>
-                        <li class="side__creator creator">
-                            <a href="" class="creator__avatar">
-                                <img src="assets/images/creator-avatar.jpg" alt="">
-                            </a>
-                            <div class="creator__info">
-                                <a href="" class="creator__name">USERNAME</a>
-                                <div class="creator__value value">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
-                                    </svg>
-                                    <span>88K</span>
-                                </div>
-                            </div>
-                            <button type="button" class="creator__button creator__button_followed button">
-                                <svg>
-                                    <use xlink:href="assets/images/icons/icons.svg#check"></use>
-                                </svg>
+                        </div>
 
-                            </button>
-                        </li>
-                        <li class="side__creator creator">
-                            <a href="" class="creator__avatar">
-                                <img src="assets/images/creator-avatar.jpg" alt="">
-                            </a>
-                            <div class="creator__info">
-                                <a href="" class="creator__name">USERNAME</a>
-                                <div class="creator__value value">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
-                                    </svg>
-                                    <span>88K</span>
-                                </div>
-                            </div>
-                            <button type="button" class="creator__button button">
-                                <svg>
-                                    <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
-                                </svg>
-                                <span>Follow</span>
-                            </button>
-                        </li>
-                        <li class="side__creator creator">
-                            <a href="" class="creator__avatar">
-                                <img src="assets/images/creator-avatar.jpg" alt="">
-                            </a>
-                            <div class="creator__info">
-                                <a href="" class="creator__name">USERNAME</a>
-                                <div class="creator__value value">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
-                                    </svg>
-                                    <span>88K</span>
-                                </div>
-                            </div>
-                            <button type="button" class="creator__button button">
-                                <svg>
-                                    <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
-                                </svg>
-                                <span>Follow</span>
-                            </button>
-                        </li>
-                        <li class="side__creator creator">
-                            <a href="" class="creator__avatar">
-                                <img src="assets/images/creator-avatar.jpg" alt="">
-                            </a>
-                            <div class="creator__info">
-                                <a href="" class="creator__name">USERNAME</a>
-                                <div class="creator__value value">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
-                                    </svg>
-                                    <span>88K</span>
-                                </div>
-                            </div>
-                            <button type="button" class="creator__button button">
-                                <svg>
-                                    <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
-                                </svg>
-                                <span>Follow</span>
-                            </button>
-                        </li>
-                    </ul>
-                    <a href="" class="side__more more stroke">
-                        <span>See all</span>
-                        <svg>
-                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
-                        </svg>
-                    </a>
-                    <div class="side__bottom">
-                        <a href="" class="side__button button">
-                            <span>Login / Sign Up</span>
-                            <svg>
-                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
-                            </svg>
-                        </a>
-                        <ul class="side__links links-side">
-                            <li class="links-side__item">
-                                <a href="">Main</a>
-                            </li>
-                            <li class="links-side__item">
-                                <a href="">Support</a>
-                            </li>
-                            <li class="links-side__item">
-                                <a href="">DMCA</a>
-                            </li>
-                            <li class="links-side__item">
-                                <a href="">FAQ</a>
-                            </li>
-                        </ul>
-                        <ul class="side__socials socials-side">
-                            <li class="socials-side__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#telegram"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials-side__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#reddit"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials-side__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#x"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
                     </div>
-
-                </div>
-
-
+                </form>
             </div>
 
         </main>

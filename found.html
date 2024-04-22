@@ -9,9 +9,11 @@
     <link rel="preload" as="font" href="assets/fonts/Unbounded-Medium.woff" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="assets/fonts/Unbounded-Bold.woff" type="font/woff2" crossorigin="anonymous">
     <link rel="preload" as="font" href="assets/fonts/Uchen-Regular.woff" type="font/woff2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css?_v=20240422072403">
     <link rel="stylesheet" href="assets/css/style.css?_v=20240422072403">
-    <link rel="stylesheet" href="assets/css/pages/user.css?_v=20240422072403">
-    <title>Auth</title>
+
+    <title>Found</title>
 </head>
 
 <body>
@@ -858,249 +860,818 @@
                     <div class="page__top-banner">
                         <img src="assets/images/banner-top.png" alt="">
                     </div>
-                    <div class="user">
-                        <div class="user__main">
-                            <div class="user__avatar">
-                                <img src="assets/images/user.jpg" alt="">
-                            </div>
-                            <div class="user__content">
-                                <div class="user__top">
-                                    <div class="user__info">
-                                        <div class="user__name">SuperPuper</div>
-                                        <div class="user__tag">@super</div>
-                                    </div>
-                                    <div class="user__actions">
-                                        <button type="button" class="user__action">
-
-                                            <span>Follow</span>
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#plus"></use>
-                                            </svg>
-                                        </button>
-                                        <a href="" class="user__action stroke">
-
-                                            <span>edit profile</span>
-                                            <svg>
-                                                <use xlink:href="assets/images/icons/icons.svg#settings"></use>
-                                            </svg>
-                                        </a>
-                                    </div>
+                    <div class="home">
+                        <h1 class="home__main-title">HEADER H1/SEARCHING WORD</h1>
+                        <div class="home__slider">
+                            <div class="home__title base-head">
+                                <div class="base-head__icon">
+                                    <img src="assets/images/icons/tag.svg" alt="">
                                 </div>
-
-                                <div class="user__stat stat-user">
-                                    <div class="stat-user__item">
-                                        <div class="stat-user__label">Followers</div>
-                                        <div class="stat-user__value">12K</div>
-                                    </div>
-                                    <div class="stat-user__item">
-                                        <div class="stat-user__label">Likes</div>
-                                        <div class="stat-user__value">123K</div>
-                                    </div>
-                                    <div class="stat-user__item">
-                                        <div class="stat-user__label">Views</div>
-                                        <div class="stat-user__value">235K</div>
-                                    </div>
-                                    <div class="stat-user__item">
-                                        <div class="stat-user__label">Posts</div>
-                                        <div class="stat-user__value">347</div>
-                                    </div>
-                                </div>
-                                <div class="user__text">
-                                    Lorem ipsum dolor sit amet consectetur. Aliquet viverra placerat eget et. Lorem ipsum dolor sit amet consectetur. Aliquet viverra Lorem ipsum dolor sit amet consectetur. Aliquet viverra placerat eget et. Lorem ipsum dolor sit amet consectetur. Aliquet viverra Lorem ipsum dolor sit amet consectetur. Aliquet viverra placerat eget et.
-                                    <span>More</span>
-                                </div>
-                                <div class="user__link">
-                                    <span>https://flapai.com/34j5h4k3k3k4hh56457</span>
-                                    <button type="button" class="user__copy stroke">
+                                <h2 class="base-head__title">TAG WORD</h2>
+                                <div class="base-head__buttons">
+                                    <button type="button" class="base-head__button-prev stroke">
                                         <svg>
-                                            <use xlink:href="assets/images/icons/icons.svg#copy"></use>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
                                         </svg>
                                     </button>
+                                    <button type="button" class="base-head__button-next stroke">
+                                        <svg>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="home__slider-tags swiper swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="tag">
+                                            <a href="" class="tag__link">
+                                                <span class="tag__value">
+                                                    tag 1
+                                                </span>
+                                                <span class="tag__count">1K</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="user__socials socials-user">
-                            <div class="socials-user__label">
-                                LINK INTO SOCIAL NETWORKS
-                            </div>
-                            <ul class="socials-user__list">
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#instagram"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link stroke">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#reddit"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#x"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#gobbler"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#youtube"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#twitch"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#discord"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#ph"></use>
-                                        </svg>
-                                    </a>
-                                </li>
 
-                                <li>
-                                    <a href="" class="social-user__link">
+                        <div class="home__slider">
+                            <div class="home__title base-head">
+                                <div class="base-head__icon">
+                                    <img src="assets/images/icons/group.svg" alt="">
+                                </div>
+                                <h2 class="base-head__title">WORD COMMUNITY (MAX 20 RESULTS)</h2>
+                                <div class="base-head__buttons">
+                                    <button type="button" class="base-head__button-prev stroke">
                                         <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#2"></use>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
                                         </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
+                                    </button>
+                                    <button type="button" class="base-head__button-next stroke">
                                         <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#3"></use>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
                                         </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#4"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#5"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#6"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#7"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#8"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="social-user__link">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons-social.svg#9"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="home__slider-niches swiper swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="home__niche base-niche">
+                                            <div class="base-niche__body">
+                                                <div class="base-niche__top">
+                                                    <div class="base-niche__avatar">
+                                                        <img src="assets/images/creator-avatar.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__info">
+                                                        <div class="base-niche__name">NAME COMUNITY</div>
+                                                        <div class="base-niche__value value">
+                                                            <svg>
+                                                                <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                            </svg>
+                                                            <span>88K</span>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="base-niche__button button">
+                                                        <svg>
+                                                            <use xlink:href="assets/images/icons/icons.svg#user-add"></use>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="base-niche__images">
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/01.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/02.jpg" alt="">
+                                                    </div>
+                                                    <div class="base-niche__image">
+                                                        <img src="assets/images/niche/03.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="user__body body-user">
-                            <div class="body-user__top">
-                                <div class="body-user__select feed-select">
-                                    <div class="feed-select__label">Sort by</div>
-                                    <div class="feed-select__item base-select">
-                                        <select>
-                                            <option value="latest">Latest</option>
-                                            <option selected value="trending">Trending</option>
-                                            <option value="top">Top</option>
-                                        </select>
-                                    </div>
+
+                        <div class="home__slider">
+                            <div class="home__title base-head">
+                                <div class="base-head__icon">
+                                    <img src="assets/images/icons/user.svg" alt="">
                                 </div>
-                                <div class="body-user__buttons">
-                                    <button data-tab-category="feed" data-tab-title="all" type="button" tabindex="-1" class="body-user__button active">
+                                <h2 class="base-head__title">WORD CREATORS (MAX 20 RESULTS)</h2>
+                                <div class="base-head__buttons">
+                                    <button type="button" class="base-head__button-prev stroke">
                                         <svg>
-                                            <use xlink:href="assets/images/icons/icons.svg#menu-burger"></use>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
                                         </svg>
-                                        <span>All</span>
                                     </button>
-                                    <button data-tab-category="feed" data-tab-title="videos" type="button" tabindex="-1" class="body-user__button stroke">
+                                    <button type="button" class="base-head__button-next stroke">
                                         <svg>
-                                            <use xlink:href="assets/images/icons/icons.svg#play-default"></use>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
                                         </svg>
-                                        <span>Videos</span>
-                                    </button>
-                                    <button data-tab-category="feed" data-tab-title="photo" type="button" tabindex="-1" class="body-user__button">
-                                        <svg>
-                                            <use xlink:href="assets/images/icons/icons.svg#picture"></use>
-                                        </svg>
-                                        <span>Photo</span>
                                     </button>
                                 </div>
                             </div>
-                            <div data-tab-category="feed" data-tab-content="all" class="body-user__content active">
-                                <div class="feed">
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
 
-                                    </div>
-                                    <div class="feed__item">
+                            <div class="home__slider-items swiper swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
                                             </div>
                                             <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
                                                 <div class="info-block__icon">
                                                     <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#picture"></use>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="info-block__value">88K</div>
@@ -1108,33 +1679,16 @@
                                         </a>
 
                                     </div>
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="feed__item">
+                                    <div class="swiper-slide">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
                                             </div>
                                             <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
                                                 <div class="info-block__icon">
                                                     <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#picture"></use>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="info-block__value">88K</div>
@@ -1142,33 +1696,101 @@
                                         </a>
 
                                     </div>
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="feed__item">
+                                    <div class="swiper-slide">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
                                             </div>
                                             <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
                                                 <div class="info-block__icon">
                                                     <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#picture"></use>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="info-block__value">88K</div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="image">
+                                            <div class="image__preview">
+                                                <img src="assets/images/image-preview.jpg" alt="">
+                                            </div>
+                                            <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
+                                                <div class="info-block__icon">
+                                                    <svg>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="info-block__value">88K</div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="image">
+                                            <div class="image__preview">
+                                                <img src="assets/images/image-preview.jpg" alt="">
+                                            </div>
+                                            <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
+                                                <div class="info-block__icon">
+                                                    <svg>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="info-block__value">88K</div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="image">
+                                            <div class="image__preview">
+                                                <img src="assets/images/image-preview.jpg" alt="">
+                                            </div>
+                                            <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
+                                                <div class="info-block__icon">
+                                                    <svg>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="info-block__value">88K</div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="image">
+                                            <div class="image__preview">
+                                                <img src="assets/images/image-preview.jpg" alt="">
+                                            </div>
+                                            <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
+                                                <div class="info-block__icon">
+                                                    <svg>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="info-block__value">88K</div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="image">
+                                            <div class="image__preview">
+                                                <img src="assets/images/image-preview.jpg" alt="">
+                                            </div>
+                                            <div class="image__info info-block">
+                                                <div class="info-block__name">USERNAME</div>
+                                                <div class="info-block__icon">
+                                                    <svg>
+                                                        <use xlink:href="assets/images/icons/icons.svg#user"></use>
                                                     </svg>
                                                 </div>
                                                 <div class="info-block__value">88K</div>
@@ -1177,135 +1799,34 @@
 
                                     </div>
                                 </div>
-                                <div class="base-loader">
-                                    <div class="base-loader__icon">
-                                        <img src="assets/images/icons/loader.svg" alt="">
-                                    </div>
-                                    <span>Loading</span>
+
+                            </div>
+                        </div>
+
+                        <div class="home__slider">
+                            <div class="home__title base-head">
+                                <div class="base-head__icon">
+                                    <img src="assets/images/icons/star.svg" alt="">
+                                </div>
+                                <h2 class="base-head__title">IMAGES IMAGES (MAX 20 RESULTS)</h2>
+                                <div class="base-head__buttons">
+                                    <button type="button" class="base-head__button-prev stroke">
+                                        <svg>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="base-head__button-next stroke">
+                                        <svg>
+                                            <use xlink:href="assets/images/icons/icons.svg#angle-right"></use>
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
-                            <div data-tab-category="feed" data-tab-content="videos" class="body-user__content">
-                                <div class="feed">
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
 
-                                    </div>
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
+                            <div class="home__slider-items swiper swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
 
-                                    </div>
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="feed__item">
-                                        <div class="video">
-                                            <video muted playsinline src="assets/videos/03.webm"></video>
-                                            <div class="video__preview">
-                                                <img src="assets/images/video-preview.jpg" alt="">
-                                            </div>
-                                            <div class="video__info info-block">
-                                                <div class="info-block__icon">
-                                                    <svg>
-                                                        <use xlink:href="assets/images/icons/icons.svg#play"></use>
-                                                    </svg>
-                                                </div>
-                                                <div class="info-block__value">88K</div>
-                                                <div class="info-block__duration">00:45</div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="base-loader">
-                                    <div class="base-loader__icon">
-                                        <img src="assets/images/icons/loader.svg" alt="">
-                                    </div>
-                                    <span>Loading</span>
-                                </div>
-                            </div>
-                            <div data-tab-category="feed" data-tab-content="photo" class="body-user__content">
-                                <div class="feed">
-
-                                    <div class="feed__item">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
@@ -1321,7 +1842,7 @@
                                         </a>
 
                                     </div>
-                                    <div class="feed__item">
+                                    <div class="swiper-slide">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
@@ -1337,7 +1858,7 @@
                                         </a>
 
                                     </div>
-                                    <div class="feed__item">
+                                    <div class="swiper-slide">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
@@ -1353,7 +1874,7 @@
                                         </a>
 
                                     </div>
-                                    <div class="feed__item">
+                                    <div class="swiper-slide">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
@@ -1369,7 +1890,7 @@
                                         </a>
 
                                     </div>
-                                    <div class="feed__item">
+                                    <div class="swiper-slide">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
@@ -1385,7 +1906,39 @@
                                         </a>
 
                                     </div>
-                                    <div class="feed__item">
+                                    <div class="swiper-slide">
+                                        <a href="" class="image">
+                                            <div class="image__preview">
+                                                <img src="assets/images/image-preview.jpg" alt="">
+                                            </div>
+                                            <div class="image__info info-block">
+                                                <div class="info-block__icon">
+                                                    <svg>
+                                                        <use xlink:href="assets/images/icons/icons.svg#picture"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="info-block__value">88K</div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <a href="" class="image">
+                                            <div class="image__preview">
+                                                <img src="assets/images/image-preview.jpg" alt="">
+                                            </div>
+                                            <div class="image__info info-block">
+                                                <div class="info-block__icon">
+                                                    <svg>
+                                                        <use xlink:href="assets/images/icons/icons.svg#picture"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="info-block__value">88K</div>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="swiper-slide">
                                         <a href="" class="image">
                                             <div class="image__preview">
                                                 <img src="assets/images/image-preview.jpg" alt="">
@@ -1402,16 +1955,10 @@
 
                                     </div>
                                 </div>
-                                <div class="base-loader">
-                                    <div class="base-loader__icon">
-                                        <img src="assets/images/icons/loader.svg" alt="">
-                                    </div>
-                                    <span>Loading</span>
-                                </div>
+
                             </div>
                         </div>
                     </div>
-
                 </div>
                 <div class="page__side side">
                     <div class="side__head head-side">
@@ -1702,166 +2249,10 @@
             </div>
 
         </main>
-        <div id="modal-auth" class="modal active lock-body">
-            <div class="modal__content">
-                <div class="auth">
-                    <div class="auth__buttons">
-                        <div data-tab-category="auth" data-tab-title="login" class="auth__button active">Login</div>
-                        <div data-tab-category="auth" data-tab-title="signup" class="auth__button">Sign up</div>
-                    </div>
-                    <div data-tab-category="auth" data-tab-content="login" class="auth__body active">
-                        <div class="auth__text">
-                            No have account? You can <span class="auth__signup" data-tab-category="auth" data-tab-title="signup">Sign Up</span> now for have fun!
-                        </div>
-                        <div class="auth__item">
-                            <div class="auth__label">Username/email</div>
-                            <div class="auth__input">
-                                <input placeholder="Enter username or email" class="input" type="text">
-                            </div>
-                        </div>
-                        <div class="auth__item">
-                            <div class="auth__label">Password</div>
-                            <div class="auth__input">
-                                <input placeholder="Enter password" class="input" type="password">
-                            </div>
-                            <button type="button" data-modal-link="modal-reset-password" class="auth__forgot">Forgot password?</button>
-                        </div>
-                        <label class="auth__checkbox checkbox checkbox-tick">
-                            <svg class="stroke">
-                                <use xlink:href="assets/images/icons/icons.svg#check"></use>
-                            </svg>
-                            <input checked class="checkbox__input" type="checkbox">
-                            <span class="checkbox__text">
-                                <span>Stay on the site</span>
-                            </span>
-                        </label>
-                        <button type="button" class="auth__submit button">
-                            <span>LOGIN</span>
-                        </button>
-                        <ul class="auth__socials socials-auth">
-                            <li class="socials-auth__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#x"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials-auth__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#google"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials-auth__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#reddit"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div data-tab-category="auth" data-tab-content="signup" class="auth__body">
-
-                        <div class="auth__item">
-                            <div class="auth__label">Username</div>
-                            <div class="auth__input">
-                                <input placeholder="Enter username" class="input" type="text">
-                            </div>
-                        </div>
-                        <div class="auth__item">
-                            <div class="auth__label">Email</div>
-                            <div class="auth__input">
-                                <input placeholder="Enter email" class="input" type="text">
-                            </div>
-                        </div>
-
-                        <div class="auth__item">
-                            <div class="auth__label">Password</div>
-                            <div class="auth__input">
-                                <input placeholder="Enter password" class="input" type="password">
-                            </div>
-                        </div>
-                        <div class="auth__item">
-                            <div class="auth__label">Password</div>
-                            <div class="auth__input">
-                                <input placeholder="Retry password" class="input" type="password">
-                            </div>
-                        </div>
-                        <label class="auth__checkbox checkbox">
-                            <svg class="stroke">
-                                <use xlink:href="assets/images/icons/icons.svg#check"></use>
-                            </svg>
-                            <input checked class="checkbox__input" type="checkbox">
-                            <span class="checkbox__text">
-                                <span>Stay on the site</span>
-                            </span>
-                        </label>
-                        <button type="button" class="auth__submit button">
-                            <span>LOGIN</span>
-                        </button>
-                        <ul class="auth__socials socials-auth">
-                            <li class="socials-auth__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#x"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials-auth__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#google"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                            <li class="socials-auth__item">
-                                <a href="">
-                                    <svg>
-                                        <use xlink:href="assets/images/icons/icons.svg#reddit"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="modal-reset-password" class="modal lock-body">
-            <div class="modal__content">
-                <form action="#" class="auth">
-                    <div class="auth__title">Reset password</div>
-                    <div class="auth__warning">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                    </div>
-                    <div class="auth__item">
-                        <div class="auth__label">Username/email</div>
-                        <div class="auth__input">
-                            <input placeholder="Enter username or email" class="input" type="text">
-                        </div>
-                    </div>
-                    <div class="auth__item">
-                        <div class="auth__label">Password</div>
-                        <div class="auth__input">
-                            <input placeholder="Enter password" class="input" type="password">
-                        </div>
-                    </div>
-
-                    <button type="button" class="auth__submit button">
-                        <span>Send</span>
-                    </button>
-                    <button data-modal-close="modal-reset-password" data-modal-link="modal-auth" type="button" class="auth__cancel button">
-                        <span>Cancel</span>
-                    </button>
-
-                </form>
-            </div>
-        </div>
     </div>
+    <script src="assets/js/plugins/swiper-bundle.min.js?_v=20240422072403"></script>
     <script src="assets/js/script.js?_v=20240422072403"></script>
     <script src="assets/js/app.js?_v=20240422072403"></script>
-    <script src="assets/js/pages/user.js?_v=20240422072403"></script>
 </body>
 
 </html>

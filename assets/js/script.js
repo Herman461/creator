@@ -25,7 +25,7 @@
 // 	sliders_build_callback();
 // }
 
-function sliders_build_callback() { }
+// function sliders_build_callback() { }
 
 
 

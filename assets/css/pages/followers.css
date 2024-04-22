@@ -1,0 +1,91 @@
+.followers__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  margin-bottom: 16px;
+}
+
+.followers__button {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 50%;
+  flex: 0 1 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.followers__button span {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  color: #929292;
+  font-size: 12px;
+}
+
+.followers__button svg {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  fill: #929292;
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.followers__button.active svg {
+  fill: #f7f7f7 !important;
+}
+
+.followers__button.active span {
+  color: #f7f7f7 !important;
+}
+
+.followers__text {
+  margin-bottom: 32px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 120%;
+}
+
+.followers__list {
+  margin: 0 -16px;
+}
+
+.followers__item {
+  margin-bottom: 13px;
+  padding: 0 16px;
+}
+
+@media (min-width: 767.98px) {
+  .followers__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .followers__item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+  }
+}
+
+@media (any-hover: hover) {
+  .followers__button:hover span {
+    color: #05C4A1;
+  }
+
+  .followers__button:hover svg {
+    fill: #05C4A1;
+  }
+}
